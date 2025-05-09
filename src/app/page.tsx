@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 
-const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbz1UGQQxhc2rOMvQsUGIimM1jpLM6gxW7EcxskW4u_Dw1JOmsGgnmdIYXzLOiL_gtki8w/exec";
+const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycby3zzBcnqlWF3-et0gD2K3nuDyLYV4_kNbWNpjuuot8FPr_-maBKAkRqFCjsVmtzvHAaw/exec";
 
 export default function Home() {
   const [navOpen, setNavOpen] = useState(false);
