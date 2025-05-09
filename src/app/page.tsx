@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 
-const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycby3zzBcnqlWF3-et0gD2K3nuDyLYV4_kNbWNpjuuot8FPr_-maBKAkRqFCjsVmtzvHAaw/exec";
+const SHEETDB_URL = "https://sheetdb.io/api/v1/fgvlp4pbibuxj";
 
 export default function Home() {
   const [navOpen, setNavOpen] = useState(false);
@@ -31,10 +31,18 @@ export default function Home() {
     setSuccess("");
     setError("");
     try {
-      const res = await fetch(GOOGLE_SCRIPT_URL, {
+      const res = await fetch(SHEETDB_URL, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
+        body: JSON.stringify({
+          data: {
+            name: form.name,
+            cedula: form.cedula,
+            phone: form.phone,
+            receipt: form.receipt,
+            consent: form.consent ? "Sí" : "No"
+          }
+        }),
       });
       if (res.ok) {
         setSuccess("¡Participación enviada exitosamente!");
