@@ -128,15 +128,15 @@ export default function Home() {
                 <svg className="mr-2 h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clipRule="evenodd" />
                 </svg>
-                Mes de las Madres
+                Mes del Padre
               </span>
             </div>
             <h1 className="text-4xl tracking-tight font-serif font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
               <span className="block">Sorteo Especial</span>
-              <span className="block text-[#247e37] mt-2">Día de las Madres</span>
+              <span className="block text-[#247e37] mt-2">Día del Padre</span>
             </h1>
             <p className="mt-6 max-w-md mx-auto text-base text-gray-600 sm:text-lg md:mt-8 md:text-xl md:max-w-3xl">
-              Celebra a mamá con nosotros y participa en nuestros sorteos semanales. ¡Gana increíbles premios!
+              Celebra a Papá con nosotros y participa en nuestros sorteos semanales. ¡Gana increíbles premios!
             </p>
             <div className="mt-8 max-w-md mx-auto sm:flex sm:justify-center md:mt-10">
               <div className="rounded-md shadow-lg transform hover:scale-105 transition-transform duration-200">
@@ -216,7 +216,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-serif font-extrabold text-gray-900 sm:text-4xl">
-              Regalos Perfectos para Mamá
+              Regalos Perfectos para Papá
             </h2>
             <p className="mt-4 text-lg text-gray-600">
               Descubre nuestra colección exclusiva de lámparas y accesorios
